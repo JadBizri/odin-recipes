@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes</title>
+    <link rel="stylesheet" href="./stylesheets/styles.css"/>
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="./recipes/hamburger.html">Hamburger</a></li>
-        <li><a href="./recipes/macncheese.html">Macaroni and Cheese</a></li>
+    <h1 class="title">Odin Recipes</h1>
+    <ul id="main-menu-list">
+        <li class="main-menu-list-item"><button class="lasagna main-menu-buttons" onclick="window.location.href='./recipes/lasagna.html';">Lasagna</button></li>
+        <li class="main-menu-list-item"><button class="hamburger main-menu-buttons" onclick="window.location.href='./recipes/hamburger.html';">Hamburger</button></li>
+        <li class="main-menu-list-item"><button class="macncheese main-menu-buttons" onclick="window.location.href='./recipes/macncheese.html';">Macaroni and Cheese</button></li>
     </ul>
 
 </body>
