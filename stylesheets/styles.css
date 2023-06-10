@@ -1,5 +1,8 @@
 *{
     font-family: Verdana, sans-serif;
+}
+
+body{
     background-color: red;
 }
 
@@ -17,17 +20,22 @@
 
 #main-menu-list{
     text-align: center;
-    color: red;
     list-style-type: none;
 }
 
 .main-menu-list-item{
-    margin: 20px 0;
+    margin: 40px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-menu-list-item a{
+    text-decoration: none;
+    color: red;
+    padding: 10px 15px;
 }
 
 .main-menu-buttons{
     background-color: orange;
-    height: 200px;
-    width: 400px;
     font-size: 55px;
 }
